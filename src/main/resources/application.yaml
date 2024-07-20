@@ -1,0 +1,9 @@
+graphql:
+  packages:
+    - "com.graphql.sample"
+
+  endpoint: graphql
+
+  playground:
+    enabled: true
+    endpoint: "playground"

@@ -1,0 +1,22 @@
+# Set to true to add reviewers to pull requests
+addReviewers: false
+
+# Set to true to add assignees to pull requests
+addAssignees: author
+
+# A list of assignees, overrides reviewers if set
+assignees:
+  - joshypaily
+
+# A number of assignees to add to the pull request
+# Set to 0 to add all of the assignees.
+# Uses numberOfReviewers if unset.
+numberOfAssignees: 0
+
+filterLabels:
+  # Run
+  include:
+    - dependencies
+  # Not run
+  # exclude:
+  #   - wip
